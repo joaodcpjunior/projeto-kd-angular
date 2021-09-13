@@ -1,0 +1,32 @@
+.container-fluid{
+    background-image: url('https://i.imgur.com/In8Oxce.png');
+    background-size: cover;
+  }
+  
+  .nav-link{
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .border-cadastro{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: .3rem 3rem .3rem 3rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .nav-link-custom{
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .my-text{
+    color: black;
+  }
