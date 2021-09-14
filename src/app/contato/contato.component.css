@@ -27,7 +27,7 @@
     font-weight: bold;
     font-size: 1rem;
     border-radius: 55px;
-    border: 2px solid #E1F502;
+    border: 2px solid transparent;
     padding: .2rem 2.5rem .2rem 2.5rem;
   }
   .my-bg{

@@ -46,15 +46,17 @@
                 </thead>
   
                 <tbody>  
-                  <tr class="d-flex align-items-center justify-content-between" *ngFor='let item of listaTemas'>
+                  <tr class="" *ngFor='let item of listaTemas'>
   
-                    <td class="textTema">{{item.nomeTema}}</td>
+                    <td class="textTema mt-3">{{item.nomeTema}}</td>
 
-                    <td class="d-flex justify-content-end">
-                      <button class="btn buttonEditar m-2 shadow-sm"
+                    <td>
+                      <div class="d-flex justify-content-end">
+                        <button class="btn buttonEditar m-2 shadow-sm "
                         [routerLink]="['/tema-edit', item.id]">Editar</button>
                       <button class="btn buttonApagar m-2 shadow-sm"
                         [routerLink]="['/tema-delete', item.id]">Apagar</button>
+                      </div>                      
                     </td>
                   </tr>
                 </tbody>
