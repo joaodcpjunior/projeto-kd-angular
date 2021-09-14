@@ -6,7 +6,7 @@ export class Postagem{
     public usuario: User
     public data: Date
     public descricao: string
-    public media: string
+    public midia: string
     public publicacao: string
     public titulo: string
     public tema: Tema

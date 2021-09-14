@@ -36,13 +36,19 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="media">Foto Ilustrativa</label>
+                    <input [(ngModel)]='postagem.midia' name="media" type="text" class="form-control" id="media"
+                      placeholder="Insira o link da imagem">
+                  </div>
+
+                <div class="form-group">
                     <label for="texto">Subtitulo</label>
                     <textarea [(ngModel)]='postagem.descricao' class="form-control" name="descricao" id="texto"
                         rows="1"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="texto">Mensagem</label>
+                    <label for="texto">Publicação</label>
                     <textarea [(ngModel)]='postagem.publicacao' class="form-control" name="publicacao" id="texto"
                         rows="16"></textarea>
                 </div>

@@ -17,22 +17,20 @@
         <div class="col-md-10">
             <div class="card bg-card">
                 <div class="card-body">
-                    <img src="https://ogimg.infoglobo.com.br/in/22702609-044-1b4/FT1086A/Dinheiro-_-mais-uma.jpg"
+                    <img src={{postagem.midia}}
                         class="img-fluid rounded mx-auto d-block mb-2" alt="..." width="650px">
-                    <h5 class="card-title">{{postagem.titulo}}</h5>
-                    <h6 class="card-subtitle  text-muted">{{postagem.descricao}}</h6>
+                    <h5 class="card-title mt-2 text-center">{{postagem.titulo}}</h5>
+                    <h6 class="card-subtitle text-muted text-center">{{postagem.descricao}}</h6>
 
                     <div>
                         <div class="d-flex flex-column align-items-end">
-                            <img src="https://f.i.uol.com.br/fotografia/2014/09/02/434016-600x600-1.jpeg"
+                            <img src={{postagem.usuario.foto}}
                                 alt="Foto do autor" width="40rem" class="img-fluid rounded-circle">
                             <h6 class="mt-1 mr-2">{{postagem.usuario.nome}}</h6>
                         </div>
 
-                        <div class="d-flex justify-content-between text-muted">
-
-
-                            <p>13 Junho - 4 min</p>
+                        <div class="d-flex justify-content-end text-muted">
+                            <p class="mb-1">{{postagem.data | date: 'dd/MM/yyyy'}}</p>
                         </div>
                     </div>
                 </div>

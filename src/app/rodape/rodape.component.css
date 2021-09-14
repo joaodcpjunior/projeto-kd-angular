@@ -1,7 +1,6 @@
 .container-fluid{
     background-color: #17223A;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    width: 100%;
 }
 
 a{

@@ -18,6 +18,8 @@
   border: none;
   border-bottom: 2px solid rgb(75, 77, 83);
   background-color: #eDF0F4;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 button span{
   font-size: .9rem;
@@ -53,4 +55,8 @@ input[type='file'] {
 
 a{
   text-decoration: none;
+}
+
+.btn-border {
+  border: none;
 }

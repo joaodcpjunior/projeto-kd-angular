@@ -1,5 +1,6 @@
 .container-fluid{
   background-color: #EDF0F4;
+  min-height: 100vh;
 }
 
 .my-po{

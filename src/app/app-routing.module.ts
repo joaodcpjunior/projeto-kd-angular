@@ -13,6 +13,7 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { PostagemComponent } from './postagem/postagem.component';
 
 const routes: Routes = [
 
@@ -27,10 +28,11 @@ const routes: Routes = [
 
   {path:'feed', component: FeedComponent},
   {path:'tema', component: TemaComponent},
-  {path: 'tema-delete/:id', component: TemaDeleteComponent},
-  {path: 'postagem-delete/:id', component: PostagemDeleteComponent},
-  {path: 'tema-edit/:id', component: TemaEditComponent},
-  {path: 'postagem-edit/:id', component: PostagemEditComponent},
+  {path:'tema-delete/:id', component: TemaDeleteComponent},
+  {path:'postagem-delete/:id', component: PostagemDeleteComponent},
+  {path:'tema-edit/:id', component: TemaEditComponent},
+  {path:'postagem-edit/:id', component: PostagemEditComponent},
+  {path:'postagem/:id', component: PostagemComponent},
   {path:'configuracao', component: ConfiguracaoComponent}
 ];
 

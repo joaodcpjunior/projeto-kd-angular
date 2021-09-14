@@ -1,15 +1,15 @@
 .container-fluid{
-  background-color: #17223A;
   width: 100%;
-  height: 91vh;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.col-md-6{
+  height: 100vh;
 }
 
 a{
   text-decoration: none;
-}
-
-.card{
-  margin: 2rem 0 0 7rem;
 }
 
 .card-body{
@@ -19,7 +19,7 @@ a{
 h5{
   font-size: 4rem;
   padding-bottom: .6rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid #d89e0a;
   margin: 0 7.5rem 0 5rem;
 }
 
@@ -31,13 +31,13 @@ button{
   font-weight: bold;
   font-size: 1rem;
   border-radius: 55px;
-  border: 2px solid #E1F502;
+  border: 2px solid #d89e0a;
   padding: .2rem 2.5rem .2rem 2.5rem;
 }
 
 
 .my-bg{
-  color: #E1F502;
+  color: #d89e0a;
 }
 
 .my-ml{
@@ -52,17 +52,11 @@ button{
   font-weight: bold;
 }
 
-hr{
-  margin: 0;
-  padding: 0;
-}
-
 .my-bag{
-  background-color: #E1F502;
+  background-color: #d89e0a;
   color: black;
-  margin: 1.5rem 0 0 11.9rem;
 }
 
-img{
-  margin: 1rem 0 0 5rem;
+.bg-azul{
+  background-color: #17223A;;
 }
