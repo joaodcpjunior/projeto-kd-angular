@@ -35,3 +35,8 @@ hr{
   margin: 0;
   padding: 0;
 }
+
+.btnEntrar{
+  background-color: #d89e0a;
+  color: black;
+}

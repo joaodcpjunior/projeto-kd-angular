@@ -57,6 +57,11 @@ button{
   color: black;
 }
 
+.btnEntrar{
+  background-color: #d89e0a;
+  color: black;
+}
+
 .bg-azul{
   background-color: #17223A;;
 }

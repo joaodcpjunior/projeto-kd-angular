@@ -57,5 +57,11 @@ hr{
 }
 
 .bg-azul{
-  background-color: #17223A;;
+  background-color: #17223A;
+
+    border-radius: 20px;
+}
+
+.cor{
+ color: #D89E0A;
 }

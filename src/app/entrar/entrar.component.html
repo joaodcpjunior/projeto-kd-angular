@@ -20,8 +20,11 @@
               placeholder="Password">
           </div>
 
-          <button type="submit" class="btn bg-white my-ml" (click)="entrar()">Entrar</button>
-          <button routerLink='/inicio' type="submit" class="btn ml-2 my-bg">Cancelar</button>
+          <div class="d-flex">
+            <button type="submit" class="btnEntrar my-ml" (click)="entrar()">Entrar</button>
+            <button routerLink='/inicio' type="submit" class="btn ml-2 my-bg">Cancelar</button>
+          </div>
+
         </form>
 
         <p>Ou</p>
